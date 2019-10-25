@@ -1,0 +1,4 @@
+github.com/fortytw2/leaktest v1.3.0/go.mod h1:jDsjWgpAGjm2CA7WthBh/CdZYEPF31XHquHwclZch5g=
+github.com/wader/goutubedl v0.0.0-20190922211401-181d7b2a30af h1:2EdtfPmmeCwrwdxKZANc5YM4HEbCAvGYnJXVGKiCPaQ=
+github.com/wader/goutubedl v0.0.0-20190922211401-181d7b2a30af/go.mod h1:TEOvzRw4YvTeOdSvGyoZD9KbKK4xbx0EJoSqj4v6yAs=
+github.com/wader/osleaktest v0.0.0-20190723190525-c53af4cfc4a3/go.mod h1:XD6emOFPHVzb0+qQpiNOdPL2XZ0SRUM0N5JHuq6OmXo=
