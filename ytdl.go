@@ -29,5 +29,5 @@ func (y *ytdl) Download(url string) (io.ReadCloser, error) {
 	if y.res == nil {
 		return nil, errors.New("call Info() first to get download details")
 	}
-	return y.res.Download(context.TODO(),"")
+	return y.res.Download(context.TODO(),"best")
 }
