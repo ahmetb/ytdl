@@ -11,8 +11,9 @@ Then visit your application with `?url=` parameter to download a video:
 
     https://<YOUR-APP-URL>/?url=https://www.youtube.com/watch?v=jHjFxJVeCQs
 
-Currently the maximum video length is set to 60 seconds because of
-32 MB [response size limit](https://cloud.google.com/run/quotas) on Cloud Run.
+Currently the maximum [response time limit](https://cloud.google.com/run/quotas) on Cloud Run
+is 60 minutes, so that's how long you can download content for, and you
+should set this explicitly on your app.
 
 ---
 
